@@ -61,7 +61,7 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
 }
 
-@mixin gradient-trans($start_color:darken($grey,20%),$start_alpha:0,$end_color:darken($grey,60%),$end_alpha:.5) {
+@mixin gradient-trans($start_color:darken(#CCC,20%),$start_alpha:0,$end_color:darken(#CCC,60%),$end_alpha:.5) {
   	$rgba_start: rgba($start_color,$start_alpha);
   	$rgba_end: rgba($end_color,$end_alpha);
 	background: $start_color; // Old browsers
